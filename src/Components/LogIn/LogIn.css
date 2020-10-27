@@ -1,0 +1,37 @@
+.logIn {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-image: linear-gradient(
+    -225deg,
+    #9c60d4 0%,
+    #424042 48%,
+    #228f8f 75%,
+    #347d86 100%
+  );
+}
+.logIn > div > img {
+  object-fit: contain;
+  height: 150px;
+  max-width: 250px;
+  transition: transfrom 100ms ease-in;
+}
+.logIn > div > img:hover {
+  transform: scale(1.07);
+}
+.logIn > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.logIn > button {
+  width: 300px;
+  background-color: #2e81f4;
+  color: #eff2f5;
+  font-weight: 800;
+}
+
+.logIn > button:hover {
+  background-color: rgb(119, 131, 238);
+  color: #2e81f4;
+}
